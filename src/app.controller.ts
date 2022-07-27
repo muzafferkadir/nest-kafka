@@ -18,7 +18,7 @@ export class AppController {
     options: {
       client: {
         clientId: 'kafkaSample',
-        brokers: ['localhost:9092'],
+        brokers: [`localhost:9092`],
       },
     },
   })

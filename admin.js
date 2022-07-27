@@ -4,7 +4,7 @@ const clientId = 'admin';
 
 const kafka = new Kafka({
   clientId,
-  brokers: ['kafka:9092'],
+  brokers: [`kafka:9092`],
 });
 
 async function main(params) {
